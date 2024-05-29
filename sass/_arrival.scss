@@ -1,0 +1,87 @@
+@import "./mixins";
+
+.arrival {
+	@include container;
+	margin-top: 100px;
+	position: relative;
+	&__title {
+		&::before {
+			position: absolute;
+			border-radius: 32px;
+			height: 30px;
+			left: -20px;
+			width: 6px;
+			background-color: #8a33fd;
+			content: "";
+		}
+	}
+}
+
+.slider {
+	position: relative;
+	margin-top: 50px;
+	user-select: none;
+	&__arrow {
+		position: absolute;
+		background: white;
+		display: flex;
+		align-items: center;
+		margin: auto;
+		cursor: pointer;
+		transition: 0.2s all;
+		&:hover {
+			scale: 1.2;
+		}
+		&_prev {
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&_next {
+			right: 0;
+			transform: translateY(-50%);
+			top: 50%;
+		}
+	}
+	&__wrapper {
+		width: 50%;
+		margin: 0 auto;
+		position: relative;
+	}
+	&__carousel {
+		display: flex;
+		justify-content: center;
+	}
+	&__block {
+		display: flex;
+		gap: 20px;
+		flex-direction: column;
+		h2 {
+			font-size: 18 px;
+		}
+	}
+}
+
+.mini {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	div {
+		cursor: pointer;
+		width: 20px;
+		height: 5px;
+		border-radius: 32px;
+		background-color: black;
+		&:first-child {
+			background-color: #8a33fd;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slider {
+		&__arrow {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@import "./header";
+@import "./promo";
+@import "./arrival";
+@import "./categories";
+@import "./footer";
+@import "./modal";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+}

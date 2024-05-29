@@ -1,0 +1,56 @@
+.promo {
+	background: center / cover no-repeat
+		url("../img/shop-hero-1-product-slide-1.jpg");
+	padding: 200px;
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 40%;
+
+		h1,
+		h2 {
+			color: white;
+			font-size: 30px;
+		}
+		h1 {
+			font-size: 80px;
+			text-wrap: wrap;
+		}
+	}
+	&__button {
+		width: 150px;
+		height: 40px;
+		border: none;
+		background-color: white;
+		color: black;
+		font-weight: 700;
+		border-radius: 8px;
+		cursor: pointer;
+		transition: 0.2s all;
+		&:hover {
+			background-color: rgb(233, 233, 233);
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.promo {
+		padding: 50px;
+		h1,
+		h2 {
+			color: white;
+			font-size: 20px;
+		}
+		h1 {
+			font-size: 50px;
+			text-wrap: wrap;
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.promo {
+		padding: 30px 20px;
+	}
+}
