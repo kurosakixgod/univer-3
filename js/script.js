@@ -13,42 +13,42 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	const menList = [
 		{
-			src: "/img/categories/Rectangle 20.png",
+			src: "img/categories/Rectangle 20.png",
 			name: "Shirts",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 21.png",
+			src: "img/categories/Rectangle 21.png",
 			name: "Printed T-Shirts",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 22.png",
+			src: "img/categories/Rectangle 22.png",
 			name: "Plain T-Shirt",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 23.png",
+			src: "img/categories/Rectangle 23.png",
 			name: "Polo T-Shirt",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 24.png",
+			src: "img/categories/Rectangle 24.png",
 			name: "Hoodies & Sweetshirt",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 25.png",
+			src: "img/categories/Rectangle 25.png",
 			name: "Jeans",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 26.png",
+			src: "img/categories/Rectangle 26.png",
 			name: "Activewear",
 			gender: "men",
 		},
 		{
-			src: "/img/categories/Rectangle 27.png",
+			src: "img/categories/Rectangle 27.png",
 			name: "Boxers",
 			gender: "men",
 		},
@@ -56,22 +56,22 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	const womenList = [
 		{
-			src: "/img/categories/Rectangle 28.png",
+			src: "img/categories/Rectangle 28.png",
 			name: "Hoodies & Sweetshirt",
 			gender: "women",
 		},
 		{
-			src: "/img/categories/Rectangle 29.png",
+			src: "img/categories/Rectangle 29.png",
 			name: "Coats & Parkas",
 			gender: "women",
 		},
 		{
-			src: "/img/categories/Rectangle 30.png",
+			src: "img/categories/Rectangle 30.png",
 			name: "Tees & T-Shirt",
 			gender: "women",
 		},
 		{
-			src: "/img/categories/Rectangle 31.png",
+			src: "img/categories/Rectangle 31.png",
 			name: "Boxers",
 			gender: "women",
 		},
